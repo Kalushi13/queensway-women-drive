@@ -9,51 +9,51 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 240 10% 20%;
+    --foreground: 220 15% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 20%;
+    --card-foreground: 220 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 20%;
+    --popover-foreground: 220 15% 20%;
 
-    /* Magenta Pink - Primary Brand */
-    --primary: 330 85% 50%;
+    /* Deep Magenta - Primary Brand (Darker for Government) */
+    --primary: 330 70% 35%;
     --primary-foreground: 0 0% 100%;
 
-    /* Purple - Secondary */
-    --secondary: 275 50% 45%;
+    /* Deep Purple - Secondary */
+    --secondary: 275 45% 35%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Gold - Accent */
-    --accent: 42 85% 55%;
-    --accent-foreground: 240 10% 15%;
+    /* Rich Gold - Accent */
+    --accent: 38 75% 45%;
+    --accent-foreground: 0 0% 100%;
 
-    --muted: 330 20% 96%;
-    --muted-foreground: 240 10% 40%;
+    --muted: 220 15% 96%;
+    --muted-foreground: 220 15% 40%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 330 30% 90%;
-    --input: 330 30% 90%;
-    --ring: 330 85% 50%;
+    --border: 220 15% 85%;
+    --input: 220 15% 85%;
+    --ring: 330 70% 35%;
 
     --radius: 0.5rem;
 
-    /* Custom brand colors */
-    --magenta: 330 85% 50%;
-    --magenta-light: 330 85% 65%;
-    --magenta-dark: 330 85% 40%;
-    --purple: 275 50% 45%;
-    --purple-light: 275 50% 60%;
-    --gold: 42 85% 55%;
-    --gold-dark: 38 85% 45%;
+    /* Custom brand colors - Subdued for professional look */
+    --magenta: 330 70% 35%;
+    --magenta-light: 330 65% 50%;
+    --magenta-dark: 330 75% 28%;
+    --purple: 275 45% 35%;
+    --purple-light: 275 45% 50%;
+    --gold: 38 75% 45%;
+    --gold-dark: 35 80% 35%;
 
     /* Gradient definitions */
-    --gradient-brand: linear-gradient(135deg, hsl(330 85% 50%), hsl(275 50% 45%));
-    --gradient-gold: linear-gradient(135deg, hsl(42 85% 55%), hsl(38 85% 45%));
-    --gradient-header: linear-gradient(90deg, hsl(330 85% 50%), hsl(275 50% 45%));
+    --gradient-brand: linear-gradient(135deg, hsl(330 70% 35%), hsl(275 45% 35%));
+    --gradient-gold: linear-gradient(135deg, hsl(38 75% 45%), hsl(35 80% 35%));
+    --gradient-header: linear-gradient(90deg, hsl(330 70% 35%), hsl(275 45% 35%));
 
     /* Typography */
     --font-display: 'Playfair Display', serif;
