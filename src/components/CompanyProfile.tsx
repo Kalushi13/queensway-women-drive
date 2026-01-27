@@ -50,10 +50,10 @@ const advantages = [
 
 const CompanyProfile = () => {
   return (
-    <div className="a4-page flex flex-col">
+    <div className="a4-page flex flex-col" style={{ WebkitFontSmoothing: 'antialiased', MozOsxFontSmoothing: 'grayscale' }}>
       <Letterhead />
       
-      <main className="flex-1 px-8 py-4 space-y-4 text-sm font-body">
+      <main className="flex-1 px-10 py-5 space-y-5 text-sm font-body">
         {/* Company Overview */}
         <section>
           <SectionHeader icon="🔷" title="Company Overview" />
