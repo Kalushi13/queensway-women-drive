@@ -7,7 +7,7 @@ const Letterhead = () => {
         <img 
           src={logo} 
           alt="M² Queensway Freight & Logistics" 
-          className="h-20 w-auto"
+          className="h-32 w-auto"
         />
         <div className="text-right text-xs font-body text-foreground/80 space-y-0.5">
           <p className="font-semibold text-sm text-primary">Ntobeko Mhlana (PTY) Ltd</p>
