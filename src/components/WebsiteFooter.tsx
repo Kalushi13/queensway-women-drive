@@ -6,7 +6,7 @@ const WebsiteFooter = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <img src={logo} alt="M² Queensway" className="h-16 w-auto mb-4 opacity-80" />
+            <img src={logo} alt="M² Queensway" className="h-24 w-auto mb-4 drop-shadow-lg" />
             <p className="text-primary-foreground/60 text-sm leading-relaxed">
               Proudly women-owned. Delivering freight excellence across Southern Africa.
             </p>

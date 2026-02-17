@@ -17,7 +17,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
         <div className="max-w-2xl space-y-6">
-          <img src={logo} alt="M² Queensway" className="h-28 w-auto mb-4 opacity-90" />
+          <img src={logo} alt="M² Queensway" className="h-44 md:h-56 w-auto mb-4 drop-shadow-2xl" />
           <h1 className="text-5xl md:text-7xl font-display font-bold text-primary-foreground leading-tight">
             Driven by Women.
             <br />
