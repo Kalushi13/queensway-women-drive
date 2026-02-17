@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo} alt="M² Queensway" className="h-12 w-auto" />
+          <img src={logo} alt="M² Queensway" className="h-16 w-auto drop-shadow-lg" />
         </a>
 
         {/* Desktop */}
