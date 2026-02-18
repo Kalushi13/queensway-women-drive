@@ -21,7 +21,7 @@ const HeroSection = () => {
           <h1 className="text-5xl md:text-7xl font-display font-bold text-primary-foreground leading-tight">
             Driven by Women.
             <br />
-            <span className="text-accent">Delivered with Power.</span>
+            <span className="text-accent">Delivered with Excellence.</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 font-body max-w-xl leading-relaxed">
             South Africa's women-owned freight powerhouse — delivering safe, reliable, and high-performance logistics across the continent.

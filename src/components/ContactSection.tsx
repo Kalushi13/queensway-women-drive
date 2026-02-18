@@ -25,7 +25,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-sm font-bold text-foreground">Address</p>
-                  <p className="text-sm text-muted-foreground">225 Wagtail Street, Birdwood Estate, North West</p>
+                  <p className="text-sm text-muted-foreground">Hartebees, North West</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -34,7 +34,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-sm font-bold text-foreground">Phone</p>
-                  <p className="text-sm text-muted-foreground">Contact us for inquiries</p>
+                  <p className="text-sm text-muted-foreground">079 977 7235 / 076 333 2383</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -59,10 +59,13 @@ const ContactSection = () => {
           {/* Form */}
           <div className="bg-primary p-8">
             <h3 className="font-display text-2xl font-bold text-primary-foreground mb-6">Request a Quote</h3>
-            <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-4" action="https://formsubmit.co/info@m2queensway.co.za" method="POST">
+              <input type="hidden" name="_subject" value="New Quote Request - M² Queensway" />
+              <input type="hidden" name="_captcha" value="false" />
               <div>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Your Name"
                   className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/40 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent"
                 />
@@ -70,12 +73,13 @@ const ContactSection = () => {
               <div>
                 <input
                   type="email"
+                  name="email"
                   placeholder="Email Address"
                   className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/40 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent"
                 />
               </div>
               <div>
-                <select className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground/60 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent">
+                <select name="service" className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground/60 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent appearance-none">
                   <option value="">Select Service</option>
                   <option>Road Freight Transport</option>
                   <option>Cross Border Solutions</option>
@@ -87,6 +91,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <textarea
+                  name="message"
                   placeholder="Tell us about your freight needs..."
                   rows={4}
                   className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/40 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent resize-none"
