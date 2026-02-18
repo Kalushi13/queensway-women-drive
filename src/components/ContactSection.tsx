@@ -79,7 +79,7 @@ const ContactSection = () => {
                 />
               </div>
               <div>
-                <select name="service" className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground/60 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent appearance-none">
+                <select name="service" className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground/60 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent appearance-none [&>option]:bg-primary [&>option]:text-primary-foreground">
                   <option value="">Select Service</option>
                   <option>Road Freight Transport</option>
                   <option>Cross Border Solutions</option>
