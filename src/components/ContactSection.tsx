@@ -25,7 +25,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-sm font-bold text-foreground">Address</p>
-                  <p className="text-sm text-muted-foreground">Hartebees, North West</p>
+                  <p className="text-sm text-muted-foreground">Hartebeespoort, North West</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -34,7 +34,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-sm font-bold text-foreground">Phone</p>
-                  <p className="text-sm text-muted-foreground">079 977 7235 / 076 333 2383</p>
+                  <p className="text-sm text-muted-foreground">076 977 7235 / 076 333 2383</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
