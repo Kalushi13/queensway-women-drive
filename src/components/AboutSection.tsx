@@ -13,8 +13,8 @@ const AboutSection = () => {
               className="w-full h-[500px] object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-secondary p-6 hidden md:block">
-              <p className="font-display text-3xl font-bold text-secondary-foreground">20+</p>
-              <p className="text-xs uppercase tracking-widest text-secondary-foreground/80">Years Combined Experience</p>
+              <p className="font-display text-3xl font-bold text-secondary-foreground">100%</p>
+              <p className="text-xs uppercase tracking-widest text-secondary-foreground/80">Women-Owned & Driven</p>
             </div>
           </div>
 
