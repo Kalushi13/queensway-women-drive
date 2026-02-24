@@ -14,7 +14,7 @@ const AboutSection = () => {
             />
             <div className="absolute -bottom-6 -right-6 bg-secondary p-6 hidden md:block">
               <p className="font-display text-3xl font-bold text-secondary-foreground">100%</p>
-              <p className="text-xs uppercase tracking-widest text-secondary-foreground/80">Women-Owned & Driven</p>
+              <p className="text-xs uppercase tracking-widest text-secondary-foreground/80">Black Women-Owned</p>
             </div>
           </div>
 
@@ -22,16 +22,16 @@ const AboutSection = () => {
           <div className="space-y-6">
             <p className="font-display text-sm tracking-[0.3em] text-secondary uppercase">Who We Are</p>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground leading-tight">
-              Built on Governance.
+              Governance-Driven.
               <br />
-              Powered by <span className="text-secondary">Excellence.</span>
+              <span className="text-secondary">Technology-Enabled.</span>
             </h2>
             <div className="section-divider" />
             <p className="text-muted-foreground leading-relaxed">
-              M² Queensway Freight & Logistics is a proudly women-owned transport and logistics company based in Pretoria, South Africa. We specialise in safe, efficient, and compliant freight solutions for domestic and cross-border markets.
+              M² Queensway Freight & Logistics (Pty) Ltd is a 100% Black Women-Owned, governance-driven long-haul transport operator delivering safe, compliant and technology-enabled freight solutions across South Africa's major corridors. Our operations are built on disciplined operational systems, advanced fleet visibility, strong ESG performance, and professionalised financial oversight.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Our operations are built on disciplined governance, world-class operational systems, and an unwavering commitment to reliability and customer satisfaction. Led by two seasoned governance, financial, and operational specialists, we deliver high-performance trucking rooted in accountability and long-term sustainability.
+              With headquarters in the North West and operational reach spanning all major national routes (N1, N3, N4, R21, R511/R512), we provide high-reliability long-haul services backed by AI-enabled telematics, strict SHEQ governance, and a dual oversight management structure — positioning M² Queensway as a low-risk, high-performance logistics partner.
             </p>
 
             {/* Manganese Highlight */}
@@ -44,7 +44,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <p className="font-display text-sm font-bold tracking-wide text-foreground uppercase">Now Transporting Manganese</p>
-                  <p className="text-sm text-muted-foreground mt-1">Specialised bulk haulage of manganese ore — handled with precision, compliance, and care.</p>
+                  <p className="text-sm text-muted-foreground mt-1">Bulk & bagged manganese ore — run-of-mine, processed ore, concentrates, and exports to rail sidings & port corridors.</p>
                 </div>
               </div>
             </div>
@@ -54,13 +54,13 @@ const AboutSection = () => {
               <div className="border-l-4 border-secondary pl-4">
                 <h3 className="font-display text-sm font-bold text-foreground mb-2">Our Mission</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  To deliver reliable, innovative freight services powered by women-led excellence and operational discipline.
+                  To operate a safety-centred, governance-driven, and technology-enabled long-haul logistics business that delivers consistent, compliant, and reliable freight solutions.
                 </p>
               </div>
               <div className="border-l-4 border-accent pl-4">
                 <h3 className="font-display text-sm font-bold text-foreground mb-2">Our Vision</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  To become Africa's leading women-owned logistics powerhouse — setting new standards of service excellence.
+                  To become a sustainable, scalable, and well-governed logistics operator that sets the benchmark for safety, compliance, and women's empowerment across South Africa and SADC corridors.
                 </p>
               </div>
             </div>

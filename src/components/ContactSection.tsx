@@ -81,12 +81,13 @@ const ContactSection = () => {
               <div>
                 <select name="service" className="w-full bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground/60 px-4 py-3 font-body text-sm focus:outline-none focus:border-accent appearance-none [&>option]:bg-primary [&>option]:text-primary-foreground">
                   <option value="">Select Service</option>
+                  <option>Manganese Transport (Bulk & Bagged)</option>
                   <option>Road Freight Transport</option>
-                  <option>Cross Border Solutions</option>
-                  <option>Contract Deliveries</option>
-                  <option>Logistics Planning</option>
-                  <option>High Value Loads</option>
-                  <option>Transport Management</option>
+                  <option>Cross-Border Transport (SADC)</option>
+                  <option>FMCG, Retail & Manufacturing Loads</option>
+                  <option>High-Value / Controlled Loads</option>
+                  <option>Logistics Planning & Dispatch</option>
+                  <option>End-to-End Transport Management</option>
                 </select>
               </div>
               <div>

@@ -3,18 +3,18 @@ const LeadershipSection = () => {
     {
       name: "Puleng Mkhatshwa",
       role: "Co-Founder & Director",
-      subtitle: "Strategic Operations & Compliance Lead",
-      bio: "A dynamic governance and operations leader with over 20 years of high-level programme and organisational management experience gained through global institutions including UNDP, UN Women, HIVOS, and Oxfam GB.",
+      subtitle: "Strategic Operations, Compliance & SHEQ Lead",
+      bio: "Puleng is a governance and operations specialist with 20+ years of experience in programme management, compliance, and institutional strengthening across global organisations including UNDP, UN Women, HIVOS, and Oxfam GB. She leads the company's SHEQ systems, operational governance, compliance structures, and driver management framework.",
       qualification: "Master's Degree in Development Studies",
-      skills: ["Transport governance & SHEQ", "Operational systems design", "Contract & client delivery", "Risk assessment", "Gender mainstreaming", "Stakeholder management"],
+      skills: ["Transport governance & SHEQ oversight", "Operational systems design", "Contract & SLA management", "Risk assessment & mitigation", "Driver standards & safety protocols", "Gender empowerment leadership"],
     },
     {
-      name: "Simangele Mhlana Maliwa",
+      name: "Simangele Mhlana-Maliwa",
       role: "Co-Founder & Director",
       subtitle: "Chief Financial & Risk Officer",
-      bio: "A highly accomplished financial specialist with deep experience in financial governance, auditing, donor compliance, and risk management across UNDP, FHI360, the US Embassy, and AIHA.",
+      bio: "Simangele is a financial governance and risk specialist with deep experience gained from UNDP, FHI360, the US Embassy and AIHA. She leads the company's financial controls, cost modelling, capital planning, insurance, procurement and asset-management frameworks.",
       qualification: "Master of Business Administration",
-      skills: ["Fleet finance & asset planning", "Financial governance & audit", "Transport cost modelling", "Capital planning", "Supplier negotiation", "Regulatory compliance"],
+      skills: ["Fleet finance & asset lifecycle planning", "Financial governance & audit control", "Cost modelling & pricing strategy", "Insurance, GIT & risk management", "Cash-flow planning & forecasting", "Procurement & supplier negotiation"],
     },
   ];
 
@@ -32,7 +32,6 @@ const LeadershipSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {leaders.map((leader) => (
             <div key={leader.name} className="bg-card border border-border overflow-hidden group">
-              {/* Header bar */}
               <div className="bg-primary p-6">
                 <h3 className="font-display text-2xl font-bold text-primary-foreground">{leader.name}</h3>
                 <p className="text-accent font-display text-sm tracking-wider mt-1">{leader.role}</p>
@@ -46,7 +45,7 @@ const LeadershipSection = () => {
                   <p className="font-display text-sm font-bold text-foreground">{leader.qualification}</p>
                 </div>
                 <div>
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">Key Competencies</p>
+                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-2">Key Strengths</p>
                   <div className="flex flex-wrap gap-2">
                     {leader.skills.map((skill) => (
                       <span

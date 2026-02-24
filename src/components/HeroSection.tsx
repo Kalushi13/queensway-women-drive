@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="text-accent">Delivered with Excellence.</span>
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/80 font-body max-w-xl leading-relaxed">
-            South Africa's women-owned freight powerhouse — delivering safe, reliable, and high-performance logistics across the continent.
+            100% Black Women-Owned, governance-driven long-haul transport — delivering safe, compliant and technology-enabled freight solutions across South Africa's major corridors.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <a
@@ -47,10 +47,10 @@ const HeroSection = () => {
       <div className="absolute bottom-0 left-0 right-0 bg-primary/90 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
-            { value: "100%", label: "Women-Owned" },
+            { value: "100%", label: "Black Women-Owned" },
             { value: "SADC", label: "Cross-Border" },
-            { value: "24/7", label: "Operations" },
-            { value: "OEM", label: "Fleet Ready" },
+            { value: "AI", label: "Telematics-Enabled" },
+            { value: "Level 1", label: "B-BBEE EME" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="font-display text-2xl md:text-3xl font-bold text-accent">{stat.value}</p>

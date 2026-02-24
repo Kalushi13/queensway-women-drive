@@ -1,14 +1,14 @@
-import { Truck, Globe, Package, Shield, BarChart3, Clock, Gem } from "lucide-react";
+import { Truck, Globe, Package, Shield, BarChart3, Clock, Gem, ShoppingCart } from "lucide-react";
 import servicesImg from "@/assets/services-warehouse.jpg";
 
 const services = [
-  { icon: Gem, title: "Manganese Transport", desc: "Specialised bulk haulage of manganese ore with full compliance and precision handling" },
-  { icon: Truck, title: "Road Freight Transport", desc: "Long haul and regional freight across South Africa" },
-  { icon: Globe, title: "Cross Border Solutions", desc: "SADC-wide freight logistics and border management" },
-  { icon: Package, title: "Contract Deliveries", desc: "Commercial and contract-based delivery services" },
-  { icon: BarChart3, title: "Logistics Planning", desc: "End-to-end logistics coordination and planning" },
-  { icon: Shield, title: "High Value Loads", desc: "Controlled and high-value cargo handling" },
-  { icon: Clock, title: "Transport Management", desc: "Full transport lifecycle management" },
+  { icon: Gem, title: "Manganese Transport", desc: "Bulk & bagged manganese ore — run-of-mine, processed, concentrates, and exports to rail sidings & port corridors with strict SHEQ controls" },
+  { icon: Truck, title: "Road Freight Transport", desc: "Long-haul & regional freight across national corridors (N1, N3, N4, R511, R512)" },
+  { icon: Globe, title: "Cross-Border Transport", desc: "SADC corridors — Mozambique, Botswana, Namibia, Zimbabwe, Zambia" },
+  { icon: ShoppingCart, title: "FMCG, Retail & Manufacturing", desc: "Palletised goods, industrial inputs, and commercial cargo" },
+  { icon: Shield, title: "High-Value / Controlled Loads", desc: "Sensitive cargo requiring strict governance and risk control" },
+  { icon: BarChart3, title: "Logistics Planning & Dispatch", desc: "Technology-enabled control tower for route optimisation, tracking & reporting" },
+  { icon: Clock, title: "End-to-End Transport Management", desc: "SLA management, POD workflows, telematics analytics, ESG & compliance reporting" },
 ];
 
 const ServicesSection = () => {
