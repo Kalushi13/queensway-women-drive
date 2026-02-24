@@ -31,7 +31,8 @@ const WebsiteFooter = () => {
               <li>SARS Compliant</li>
               <li>CIPC Registered</li>
               <li>UIF & COIDA Compliant</li>
-              <li>B-BBEE Certified</li>
+              <li>Level 1 B-BBEE EME (135% Procurement)</li>
+              <li>NRTA & OHSA Aligned</li>
             </ul>
           </div>
         </div>
