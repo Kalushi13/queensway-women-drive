@@ -34,6 +34,21 @@ const AboutSection = () => {
               Our operations are built on disciplined governance, world-class operational systems, and an unwavering commitment to reliability and customer satisfaction. Led by two seasoned governance, financial, and operational specialists, we deliver high-performance trucking rooted in accountability and long-term sustainability.
             </p>
 
+            {/* Manganese Highlight */}
+            <div className="relative overflow-hidden rounded-lg bg-gradient-to-r from-secondary/20 via-secondary/10 to-accent/20 border border-secondary/30 p-5">
+              <div className="absolute top-0 right-0 w-24 h-24 bg-secondary/10 rounded-full -translate-y-1/2 translate-x-1/2" />
+              <div className="absolute bottom-0 left-0 w-16 h-16 bg-accent/10 rounded-full translate-y-1/2 -translate-x-1/2" />
+              <div className="relative flex items-center gap-4">
+                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-secondary/20 border-2 border-secondary flex items-center justify-center">
+                  <span className="font-display text-lg font-bold text-secondary">Mn</span>
+                </div>
+                <div>
+                  <p className="font-display text-sm font-bold tracking-wide text-foreground uppercase">Now Transporting Manganese</p>
+                  <p className="text-sm text-muted-foreground mt-1">Specialised bulk haulage of manganese ore — handled with precision, compliance, and care.</p>
+                </div>
+              </div>
+            </div>
+
             {/* Mission / Vision */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="border-l-4 border-secondary pl-4">
