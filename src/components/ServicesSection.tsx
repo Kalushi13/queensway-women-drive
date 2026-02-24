@@ -1,7 +1,8 @@
-import { Truck, Globe, Package, Shield, BarChart3, Clock } from "lucide-react";
+import { Truck, Globe, Package, Shield, BarChart3, Clock, Gem } from "lucide-react";
 import servicesImg from "@/assets/services-warehouse.jpg";
 
 const services = [
+  { icon: Gem, title: "Manganese Transport", desc: "Specialised bulk haulage of manganese ore with full compliance and precision handling" },
   { icon: Truck, title: "Road Freight Transport", desc: "Long haul and regional freight across South Africa" },
   { icon: Globe, title: "Cross Border Solutions", desc: "SADC-wide freight logistics and border management" },
   { icon: Package, title: "Contract Deliveries", desc: "Commercial and contract-based delivery services" },
