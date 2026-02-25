@@ -187,7 +187,7 @@ const CompanyProfile = () => {
             </p>
             <div className="mt-3 flex items-center justify-center gap-4 text-[10px]" style={{ color: 'hsl(220, 15%, 50%)' }}>
               <span>📧 info@m2queensway.co.za</span>
-              <span>📞 +27 XX XXX XXXX</span>
+              <span>📞 +27 76 977 7235 / +27 6 333 2383</span>
               <span>🌐 www.m2queensway.co.za</span>
             </div>
           </section>
