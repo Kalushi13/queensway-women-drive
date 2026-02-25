@@ -1,5 +1,3 @@
-import Letterhead from "./Letterhead";
-import Footer from "./Footer";
 import logo from "@/assets/m2-logo.png";
 
 const CompanyProfile = () => {
@@ -22,14 +20,14 @@ const CompanyProfile = () => {
 
       {/* Page 1 */}
       <div className="profile-page bg-white shadow-lg mb-8">
-        {/* Letterhead - Logo RIGHT, Info LEFT */}
+        {/* Letterhead */}
         <header className="px-10 pt-8 pb-6 border-b-4" style={{ borderColor: 'hsl(330, 65%, 38%)' }}>
           <div className="flex items-center justify-between gap-8">
             <div className="font-body space-y-1" style={{ color: 'hsl(220, 20%, 10%)' }}>
               <p className="font-bold text-lg" style={{ color: 'hsl(220, 25%, 15%)' }}>Ntobeko Mhlana (PTY) Ltd</p>
               <p className="font-semibold text-sm" style={{ color: 'hsl(330, 65%, 38%)' }}>t/a M² Queensway Freight & Logistics</p>
-              <p className="text-sm">225 Wagtail Street, Birdwood Estate, North West</p>
-              <p className="text-sm font-medium">Reg: 2023/788800/07</p>
+              <p className="text-sm" style={{ color: 'hsl(220, 20%, 15%)' }}>225 Wagtail Street, Birdwood Estate, North West</p>
+              <p className="text-sm font-medium" style={{ color: 'hsl(220, 20%, 15%)' }}>Reg: 2023/788800/07</p>
               <p className="text-xs mt-1" style={{ color: 'hsl(330, 65%, 38%)' }}>100% Black Women-Owned | Level 1 B-BBEE EME</p>
             </div>
             <img 
@@ -42,22 +40,25 @@ const CompanyProfile = () => {
         </header>
 
         <main className="px-10 py-6 space-y-5 text-sm" style={{ color: 'hsl(220, 20%, 10%)' }}>
-          {/* Title */}
+          {/* Title + Tagline */}
           <div className="text-center py-3">
             <h1 className="text-2xl font-bold uppercase tracking-widest" style={{ fontFamily: 'Oswald, sans-serif', color: 'hsl(220, 25%, 15%)' }}>
               Company Profile
             </h1>
             <div className="w-24 h-1 mx-auto mt-2" style={{ background: 'linear-gradient(90deg, hsl(330, 65%, 38%), hsl(38, 80%, 50%))' }} />
-            <p className="text-xs mt-2" style={{ color: 'hsl(220, 15%, 40%)' }}>February 2026</p>
+            <p className="text-sm font-semibold italic mt-2" style={{ color: 'hsl(330, 65%, 38%)' }}>
+              Driven by Women. Delivered with Excellence.
+            </p>
+            <p className="text-xs mt-1" style={{ color: 'hsl(220, 20%, 25%)' }}>February 2026</p>
           </div>
 
           {/* Company Overview */}
           <section>
             <SectionTitle icon="🔷" title="Company Overview" />
-            <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>
+            <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 15%)' }}>
               M² Queensway Freight & Logistics (Pty) Ltd is a 100% Black Women-Owned, governance-driven long-haul transport operator delivering safe, compliant and technology-enabled freight solutions across South Africa's major corridors. Our operations are built on disciplined operational systems, advanced fleet visibility, strong ESG performance, and professionalised financial oversight.
             </p>
-            <p className="text-xs leading-relaxed mt-2" style={{ color: 'hsl(220, 20%, 25%)' }}>
+            <p className="text-xs leading-relaxed mt-2" style={{ color: 'hsl(220, 20%, 15%)' }}>
               With headquarters in the North West and operational reach spanning all major national routes (N1, N3, N4, R21, R511/R512), the company provides high-reliability long-haul services backed by AI-enabled telematics, strict SHEQ governance, and a dual oversight management structure.
             </p>
           </section>
@@ -66,13 +67,13 @@ const CompanyProfile = () => {
           <section className="grid grid-cols-2 gap-4">
             <div className="p-3 rounded-lg border-l-4" style={{ borderColor: 'hsl(330, 65%, 38%)', backgroundColor: 'hsl(330, 65%, 38%, 0.06)' }}>
               <h3 className="font-bold text-sm mb-1" style={{ fontFamily: 'Oswald, sans-serif', color: 'hsl(330, 65%, 38%)' }}>🎯 Mission Statement</h3>
-              <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>
+              <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 15%)' }}>
                 To operate a safety-centred, governance-driven, and technology-enabled long-haul logistics business that delivers consistent, compliant, and reliable freight solutions while contributing to South Africa's economic transformation through women's leadership, job creation, and responsible industrial development.
               </p>
             </div>
             <div className="p-3 rounded-lg border-l-4" style={{ borderColor: 'hsl(38, 80%, 50%)', backgroundColor: 'hsl(38, 80%, 50%, 0.06)' }}>
               <h3 className="font-bold text-sm mb-1" style={{ fontFamily: 'Oswald, sans-serif', color: 'hsl(220, 25%, 15%)' }}>👁️ Vision Statement</h3>
-              <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>
+              <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 15%)' }}>
                 To become a sustainable, scalable, and well-governed logistics operator that sets the benchmark for safety, compliance, visibility, women's empowerment, and operational excellence across South Africa and regional SADC trade corridors.
               </p>
             </div>
@@ -80,7 +81,7 @@ const CompanyProfile = () => {
 
           {/* Core Values */}
           <section>
-            <SectionTitle icon="💎" title="Strengthened Core Values" />
+            <SectionTitle icon="💎" title="Core Values" />
             <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-xs">
               <ValueRow title="Governance & Integrity" desc="Disciplined internal controls, transparent decision-making, dual financial oversight, and compliance with national regulatory requirements." />
               <ValueRow title="Safety & SHEQ Excellence" desc="AI-enabled telematics, driver wellness systems, preventative maintenance, and strict SHEQ adherence." />
@@ -109,7 +110,7 @@ const CompanyProfile = () => {
 
         {/* Page 1 Footer */}
         <div className="px-10 py-2 text-center">
-          <p className="text-[10px]" style={{ color: 'hsl(220, 15%, 50%)' }}>Page 1 of 2</p>
+          <p className="text-[10px]" style={{ color: 'hsl(220, 20%, 30%)' }}>Page 1 of 2</p>
         </div>
       </div>
 
@@ -124,11 +125,11 @@ const CompanyProfile = () => {
           <img src={logo} alt="Logo" className="h-16 w-auto object-contain" />
         </header>
 
-        <main className="px-10 py-6 space-y-5 text-sm" style={{ color: 'hsl(220, 20%, 10%)' }}>
+        <main className="px-10 py-5 space-y-4 text-sm" style={{ color: 'hsl(220, 20%, 10%)' }}>
           {/* Leadership */}
           <section>
             <SectionTitle icon="👩‍💼" title="Leadership Profiles" />
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-5">
               <LeaderCard
                 name="Puleng Mkhatshwa"
                 role="Co-Founder & Director"
@@ -148,7 +149,7 @@ const CompanyProfile = () => {
             </div>
           </section>
 
-          {/* Competitive Advantages */}
+          {/* Competitive Advantages — now includes Strategic Corridor & Scalable Model */}
           <section>
             <SectionTitle icon="🏆" title="Competitive Advantages" />
             <div className="space-y-2 text-xs">
@@ -157,35 +158,17 @@ const CompanyProfile = () => {
               <AdvantageItem num="3" title="SHEQ-Led Operational Discipline" desc="Safety management, incident reporting, preventative maintenance, and structured driver wellness." />
               <AdvantageItem num="4" title="100% Black Women Ownership (Level 1 EME)" desc="135% procurement recognition, strengthening ESD and transformation scoring." />
               <AdvantageItem num="5" title="Strong Financial Controls & Risk Management" desc="Cost-realistic modelling, disciplined budgeting, and transparent reporting ensuring lender trust." />
+              <AdvantageItem num="6" title="Strategic Corridor Positioning" desc="Based in the North West near the N4, N1, R511 & R512, minimising dead mileage and providing rapid access to major national and SADC corridors." />
+              <AdvantageItem num="7" title="Scalable Operational Model" desc="Organisational and governance structure designed to scale responsibly—from 3 to 10+ trucks—without compromising safety or compliance." />
             </div>
-          </section>
-
-          {/* Strategic Corridor */}
-          <section className="p-4 rounded-lg border" style={{ borderColor: 'hsl(330, 65%, 38%, 0.3)', background: 'linear-gradient(135deg, hsl(220, 25%, 15%, 0.03), hsl(330, 65%, 38%, 0.05))' }}>
-            <h3 className="font-bold text-sm mb-2 flex items-center gap-2" style={{ fontFamily: 'Oswald, sans-serif', color: 'hsl(220, 25%, 15%)' }}>
-              📍 Strategic Corridor Positioning
-            </h3>
-            <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>
-              Based in the North West near the N4, N1, R511 & R512, the company minimises dead mileage and provides rapid access to major national and SADC corridors.
-            </p>
-          </section>
-
-          {/* Scalable Model */}
-          <section className="p-4 rounded-lg border" style={{ borderColor: 'hsl(38, 80%, 50%, 0.3)', background: 'linear-gradient(135deg, hsl(38, 80%, 50%, 0.04), hsl(220, 25%, 15%, 0.03))' }}>
-            <h3 className="font-bold text-sm mb-2 flex items-center gap-2" style={{ fontFamily: 'Oswald, sans-serif', color: 'hsl(220, 25%, 15%)' }}>
-              📈 Scalable Operational Model
-            </h3>
-            <p className="text-xs leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>
-              The organisational and governance structure has been designed to scale responsibly—from 3 to 10+ trucks—without compromising safety or compliance.
-            </p>
           </section>
 
           {/* Closing */}
           <section className="text-center py-3 border-t-2" style={{ borderColor: 'hsl(330, 65%, 38%, 0.2)' }}>
-            <p className="text-xs italic leading-relaxed max-w-xl mx-auto" style={{ color: 'hsl(220, 20%, 30%)' }}>
+            <p className="text-xs italic leading-relaxed max-w-xl mx-auto" style={{ color: 'hsl(220, 20%, 15%)' }}>
               M² Queensway Freight & Logistics offers the perfect blend of strong governance, financial discipline, operational excellence, and industry-aligned capability. We are committed to building a world-class fleet, empowering women in transport, and delivering freight solutions that clients can trust.
             </p>
-            <div className="mt-3 flex items-center justify-center gap-4 text-[10px]" style={{ color: 'hsl(220, 15%, 50%)' }}>
+            <div className="mt-3 flex items-center justify-center gap-4 text-[10px]" style={{ color: 'hsl(220, 20%, 25%)' }}>
               <span>📧 info@m2queensway.co.za</span>
               <span>📞 +27 76 977 7235 / +27 6 333 2383</span>
               <span>🌐 www.m2queensway.co.za</span>
@@ -193,8 +176,8 @@ const CompanyProfile = () => {
           </section>
         </main>
 
-        {/* Page 2 Footer */}
-        <div className="py-3" style={{ background: 'linear-gradient(90deg, hsl(220, 25%, 15%), hsl(330, 65%, 38%))' }}>
+        {/* Page 2 Footer — tightened */}
+        <div className="py-2" style={{ background: 'linear-gradient(90deg, hsl(220, 25%, 15%), hsl(330, 65%, 38%))' }}>
           <p className="text-center text-[10px] text-white italic" style={{ fontFamily: 'Oswald, sans-serif' }}>
             Driven by Women. Delivered with Excellence.
           </p>
@@ -228,16 +211,16 @@ const ValueRow = ({ title, desc }: { title: string; desc: string }) => (
   <div className="flex items-start gap-1.5">
     <span style={{ color: 'hsl(38, 80%, 50%)' }}>⭐</span>
     <div>
-      <span className="font-semibold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</span>
-      <span style={{ color: 'hsl(220, 20%, 30%)' }}> – {desc}</span>
+      <span className="font-bold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</span>
+      <span style={{ color: 'hsl(220, 20%, 15%)' }}> – {desc}</span>
     </div>
   </div>
 );
 
 const ServiceItem = ({ title, desc }: { title: string; desc: string }) => (
   <div className="p-2 rounded border-l-3" style={{ borderColor: 'hsl(330, 65%, 38%)', backgroundColor: 'hsl(220, 25%, 15%, 0.03)' }}>
-    <p className="font-semibold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</p>
-    <p style={{ color: 'hsl(220, 20%, 35%)' }}>{desc}</p>
+    <p className="font-bold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</p>
+    <p style={{ color: 'hsl(220, 20%, 15%)' }}>{desc}</p>
   </div>
 );
 
@@ -248,17 +231,17 @@ const LeaderCard = ({ name, role, subtitle, bio, qualification, strengths }: {
     <div className="px-3 py-2" style={{ backgroundColor: 'hsl(220, 25%, 15%)' }}>
       <p className="font-bold text-sm text-white" style={{ fontFamily: 'Oswald, sans-serif' }}>{name}</p>
       <p className="text-[10px]" style={{ color: 'hsl(38, 80%, 50%)' }}>{role}</p>
-      <p className="text-[10px] italic text-white/60">{subtitle}</p>
+      <p className="text-[10px] italic text-white/70">{subtitle}</p>
     </div>
-    <div className="px-3 py-2 space-y-1.5">
-      <p className="text-[11px] leading-relaxed" style={{ color: 'hsl(220, 20%, 25%)' }}>{bio}</p>
+    <div className="px-3 py-3 space-y-2">
+      <p className="text-[11px] leading-relaxed" style={{ color: 'hsl(220, 20%, 15%)' }}>{bio}</p>
       <p className="text-[11px]">
-        <span className="font-semibold" style={{ color: 'hsl(220, 25%, 15%)' }}>Qualification: </span>
-        <span style={{ color: 'hsl(220, 20%, 30%)' }}>{qualification}</span>
+        <span className="font-bold" style={{ color: 'hsl(220, 25%, 15%)' }}>Qualification: </span>
+        <span style={{ color: 'hsl(220, 20%, 15%)' }}>{qualification}</span>
       </p>
       <div>
-        <p className="text-[10px] font-semibold mb-1" style={{ color: 'hsl(330, 65%, 38%)' }}>Key Strengths:</p>
-        <ul className="grid grid-cols-2 gap-x-2 gap-y-0.5 text-[10px]" style={{ color: 'hsl(220, 20%, 30%)' }}>
+        <p className="text-[10px] font-bold mb-1" style={{ color: 'hsl(330, 65%, 38%)' }}>Key Strengths:</p>
+        <ul className="grid grid-cols-2 gap-x-2 gap-y-0.5 text-[10px]" style={{ color: 'hsl(220, 20%, 15%)' }}>
           {strengths.map((s, i) => (
             <li key={i} className="flex items-start gap-1">
               <span style={{ color: 'hsl(38, 80%, 50%)' }}>•</span>
@@ -275,8 +258,8 @@ const AdvantageItem = ({ num, title, desc }: { num: string; title: string; desc:
   <div className="flex items-start gap-2">
     <span className="flex-shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold text-white" style={{ backgroundColor: 'hsl(330, 65%, 38%)' }}>{num}</span>
     <div>
-      <span className="font-semibold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</span>
-      <span style={{ color: 'hsl(220, 20%, 35%)' }}> — {desc}</span>
+      <span className="font-bold" style={{ color: 'hsl(220, 25%, 15%)' }}>{title}</span>
+      <span style={{ color: 'hsl(220, 20%, 15%)' }}> — {desc}</span>
     </div>
   </div>
 );
